@@ -1,0 +1,55 @@
+/* App.css */
+
+.form-control::placeholder {
+    color: #aaa; /* Change this color to your preference */
+    opacity: 1; /* Ensures the placeholder is visible */
+  }
+  
+  .form-control {
+    background-color: #1e1e2f;
+    color: #ffffff; /* Text color of input */
+    border: 1px solid #333; /* Border color for input */
+  }
+  
+  .form-control:focus {
+    border-color: #666; /* Border color on focus */
+    box-shadow: none;
+  }
+  
+  .btn {
+    background-color: #007bff; /* Button background */
+    color: #ffffff; /* Button text color */
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3; /* Button hover background */
+  }
+  
+  .table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #fff;
+    background-color: #1e1e2f;
+  }
+  
+  .table th,
+  .table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #333;
+  }
+  
+  .table-dark {
+    background-color: #1e1e2f;
+  }
+  
+  .table-dark th {
+    color: #fff;
+  }
+  
+  .table-dark td {
+    color: #ddd;
+  }
+  

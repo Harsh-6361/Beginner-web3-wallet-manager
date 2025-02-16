@@ -1,0 +1,53 @@
+{
+  "name": "eth-harsh",
+  "version": "0.1.0",
+  "description": "An Ethereum Marketplace",
+  "author": "harshvardhan21.2005@gmail.com",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.1.0",
+    "babel-polyfill": "6.26.0",
+    "babel-preset-env": "^0.0.0",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-stage-2": "^6.11.0",
+    "babel-preset-stage-3": "6.24.1",
+    "babel-register": "6.26.0",
+    "bootstrap": "^5.3.3",
+    "chai": "4.2.0",
+    "chai-as-promised": "7.1.1",
+    "chai-bignumber": "3.0.0",
+    "react": "^18.3.1",
+    "react-bootstrap": "^1.6.8",
+    "react-dom": "^18.3.1",
+    "react-scripts": "^3.0.1",
+    "truffle": "^5.11.5",
+    "web3": "^1.10.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "assert": "^2.1.0",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.1",
+    "https-browserify": "^1.0.0",
+    "os-browserify": "^0.3.0",
+    "process": "^0.11.10",
+    "react-app-rewired": "^2.2.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.4"
+  }
+}
